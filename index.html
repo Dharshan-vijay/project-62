@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Photo Gallery</title>
+
+
+
+</head>
+
+<body>
+
+    <ul>
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#Gride view">Grid view</a></li>
+        <li><a href="#slide view">Slide view</a></li>
+
+    </ul>
+    <section id="Home">
+
+        <h1>Welcome to My Photo Gallery </h1>
+
+        <img id="logo" src="logo.png">
+    </section>
+    <section id="Gride view">
+
+        <h2> Grid gallery</h2>
+        <br>
+        <div class="row">
+            <img class="img2" src="black%20car.jpg">
+            <img class="img2" src="blue%20car.jpg">
+            <img class="img2" src="gold%20car.jpg">
+            <img class="img2" src="red%20car.jpeg">
+            <img class="img2" src="white%20car.jpg">
+            <img class="img2" src="yellow%20car.jpg">
+            <br><br>
+        </div>
+    </section>
+
+    <section id="Slide view">
+        <h2> Slide View</h2>
+        <br>
+        <center>
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                    <li data-target="#myCarousel" data-slide-to="4"></li>
+                    <li data-target="#myCarousel" data-slide-to="5"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="yellow%20car.jpg" alt="CAR">
+      <div class="carousel-caption">
+        <h3>YELLOW CAR</h3>
+        <p>Driving is always so much fun!</p>
+      </div>
+    </div>
+
+    <div class="item">
+      <img src="red%20car.jpeg" alt="RED">
+      <div class="carousel-caption">
+        <h3>RED CAR</h3>
+        <p>RED CARS ALWAYS BRIGHT!</p>
+      </div>
+    </div>
+      <div class="item">
+      <img src="white%20car.jpg" alt="WHITE">
+      <div class="carousel-caption">
+        <h3>WHITE CAR</h3>
+        <p>WHITE IS ALWAYS ROYAL!</p>
+      </div>
+    </div>
+      <div class="item">
+      <img src="black%20car.jpg" alt="BLACK">
+      <div class="carousel-caption">
+        <h3>BLACK</h3>
+        <p>BLACK IS CLASSIC!</p>
+      </div>
+    </div>
+      <div class="item">
+      <img src="gold%20car.jpg" alt="GOLD">
+      <div class="carousel-caption">
+        <h3>GOLD CAR</h3>
+        <p>GOLD CARS ARE RICH!</p>
+      </div>
+    </div>
+
+   
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+    </section>
+
+</body>
+
+</html>
